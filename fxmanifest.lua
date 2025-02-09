@@ -12,7 +12,7 @@ repository 'https://github.com/overextended/ox_target'
 description ''
 
 -- Manifest
-ui_page 'web/index.html'
+ui_page 'web/build/index.html'
 
 shared_scripts {
 	'@ox_lib/init.lua',
@@ -27,7 +27,7 @@ server_scripts {
 }
 
 files {
-	'web/**',
+	'web/build/**/*',
 	'locales/*.json',
 	'client/api.lua',
 	'client/utils.lua',
