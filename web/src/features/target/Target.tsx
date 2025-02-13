@@ -4,6 +4,7 @@ import { useNuiEvent } from '../../hooks/useNuiEvent';
 import { fetchNui } from '../../utils/fetchNui';
 import { Option, TargetData, VisibilityData } from '../../typings/target';
 import * as Io5Icons from 'react-icons/io5';
+import * as IoIcons from 'react-icons/io';
 import * as FaIcons from 'react-icons/fa';
 import * as Fa6Icons from 'react-icons/fa6';
 import * as MdIcons from 'react-icons/md';
@@ -36,7 +37,8 @@ const iconSets = {
     ti: Ti,
     wi: Wi,
     di: Di,
-    io5: Io5Icons
+    io5: Io5Icons,
+    io: IoIcons
 };
 
 const Target: React.FC = () => {
